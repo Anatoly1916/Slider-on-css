@@ -1,0 +1,51 @@
+body .wrapper #img-1:checked ~ .right > #first,
+body .wrapper #img-2:checked ~ .right > #second,
+body .wrapper #img-3:checked ~ .right > #third,
+body .wrapper #img-4:checked ~ .right > #fourth,
+body .wrapper #img-5:checked ~ .right > #fifth,
+body .wrapper #img-6:checked ~ .right > #sixth,
+body .wrapper #img-7:checked ~ .right > #seventh,
+body .wrapper #img-8:checked ~ .right > #eighth,
+body .wrapper #img-9:checked ~ .right > #nineth,
+body .wrapper #img-10:checked ~ .right > #tenth,
+body .wrapper #img-11:checked ~ .right > #eleventh {
+  visibility: visible;
+}
+body .wrapper .slide-img {
+  display: none;
+}
+body .wrapper .left {
+  float: left;
+  width: 300px;
+  height: 1000px;
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
+}
+body .wrapper .left img {
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+body .wrapper .right {
+  height: 1000px;
+  width: 800px;
+  display: inline-block;
+  position: relative;
+}
+body .wrapper .right h1 {
+  padding-left: 20px;
+}
+body .wrapper .right .slides {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  visibility: hidden;
+}
+body .wrapper .right img {
+  width: 550px;
+  margin-left: 20px;
+}
+body .wrapper .left, body .wrapper .right {
+  background-color: gray;
+}
